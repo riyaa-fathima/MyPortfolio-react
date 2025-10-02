@@ -1,0 +1,49 @@
+.projects-section {
+  padding: 100px 0;
+  background: #fadcd9;
+
+  .section-title {
+    font-size: 3rem;
+    font-weight: 950;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    letter-spacing: -2.99px;
+    margin-bottom: 50px;
+    color: #eb6563;
+    text-transform: uppercase;
+  }
+
+  .project-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%; // make cards equal height
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+      height: 220px; // same height for all images
+      object-fit: cover;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+
+    .btn-primary {
+      background: #fabcbb;
+      border: none;
+      padding: 8px 20px;
+      border-radius: 8px;
+      font-weight: 500;
+      color: #2d2d2d;
+
+      &:hover {
+        background: #eb6563;
+        color: #fff;
+      }
+    }
+  }
+}
