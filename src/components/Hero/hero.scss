@@ -28,14 +28,11 @@
 
     h1 {
       font-size: 5rem;
-
       font-family: "Anton", sans-serif;
       font-weight: 750;
       font-style: normal;
       letter-spacing: -0.99px;
-
       margin-bottom: 20px;
-
       color: #eb6563;
     }
 
@@ -47,5 +44,11 @@
         color: #f8a1a1;
       }
     }
+  }
+  .about-sec {
+    padding: 100px 0;
+    background: #f9f1f0;
+    border-bottom-left-radius: 30% 100px;
+    border-top-right-radius: 30% 100px;
   }
 }

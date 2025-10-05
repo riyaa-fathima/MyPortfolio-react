@@ -1,8 +1,9 @@
 import "./hero.scss";
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Project from "../Project/Project";
+import Project from "../Projects/Projects";
 import Skill from "../Skill/Skill";
+import About from "../AboutMe/AboutMe";
 
 function Hero() {
   return (
@@ -24,7 +25,10 @@ function Hero() {
         </Container>
       </div>
       <Project/>
+      <div className="about-sec">
+      <About/>
       <Skill />
+      </div>
     </section>
   );
 }

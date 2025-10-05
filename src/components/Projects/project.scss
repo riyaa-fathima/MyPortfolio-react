@@ -1,0 +1,38 @@
+.projects-section {
+  padding: 100px 0;
+  background: #fadcd9;
+
+  .section-title {
+    font-size: 3rem;
+    font-weight: 950;
+    font-family: "Anton", sans-serif;
+    font-style: normal;
+    letter-spacing: -2.99px;
+    margin-bottom: 50px;
+    color: #eb6563;
+    text-transform: uppercase;
+  }
+
+  .project-card {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: all 0.3s ease;
+    height: 100%;
+    .project-card title {
+      color: aquamarine;
+    }
+
+    img {
+      height: 300px;
+      object-fit: cover;
+    }
+    .card-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #f47976; 
+      margin-bottom: 10px;
+    }
+  }
+}

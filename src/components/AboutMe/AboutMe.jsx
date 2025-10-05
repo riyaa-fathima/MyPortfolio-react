@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 
-function About() {
+function AboutMe() {
   return (
     <section id="about" className="about-section">
       <Container>
@@ -33,4 +33,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutMe;

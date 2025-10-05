@@ -1,13 +1,21 @@
 .skills-section {
   padding: 100px 0;
-  background: #fff;
+  background: #f9f1f0;
+  border-bottom-left-radius: 30% 100px;
+  border-top-right-radius: 30% 100px;
 
   .section-title {
+    position: sticky;
+    top: 120px; 
     font-size: 3rem;
     font-weight: 950;
     font-family: "Anton", sans-serif;
-    color: #4b0082; // deep purple
+    color: #eb6563;
     text-transform: uppercase;
+  }
+    .sticky-col .sticky-wrapper {
+    position: sticky;
+    top: 150px; 
   }
 
   .skills-list {
@@ -18,69 +26,53 @@
 
   .skill-card {
     position: relative;
-    padding: 30px;
+    width: 350px;
+    height: 250px;
     border-radius: 12px;
     box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
-
-    // sloped effect
-    transform: skew(-6deg);
-    overflow: hidden;
-
-    h3,
-    p {
-      transform: skew(6deg); // cancel skew for text
-    }
-
-    h3 {
-      font-size: 1.3rem;
-      font-weight: 700;
-      margin-bottom: 8px;
-    }
-
-    p {
-      font-size: 1rem;
-      margin: 0;
-      color: #444;
-    }
-
-    .icon {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      background: #fff;
-      padding: 6px;
-      border-radius: 50%;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      transform: skew(6deg); // keep icon straight
-      color: #4b0082;
-    }
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
 
     &:hover {
-      transform: skew(-6deg) translateX(10px);
+      transform: translateX(10px);
       box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
     }
   }
 
-  /* alternating backgrounds */
-  .color-0 {
-    background: #ffffff;
+
+  .skill-card h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
   }
-  .color-1 {
-    background: #f3e8ff;
+
+  .skill-card p {
+    font-size: 1rem;
+    margin: 5px 0 0;
   }
-  .color-2 {
-    background: #e0c3fc;
+}
+
+.color-0 {
+  background: #ffffff;
+}
+.color-1 {
+  background: #fceeed;
+}
+.color-2 {
+  background: #fadcd9;
+  h3,
+  p {
+    color: #fff;
   }
-  .color-3 {
-    background: #8b5cf6;
-    h3,
-    p {
-      color: #fff;
-    }
-    .icon {
-      background: rgba(255, 255, 255, 0.2);
-      color: #fff;
-    }
+}
+.color-3 {
+  background: #f8afa6;
+  h3,
+  p {
+    color: #fff;
   }
 }

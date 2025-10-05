@@ -1,7 +1,6 @@
 import "./skill.scss";
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-// import { Code, Database, Globe, Smartphone } from "lucide-react"; // example icons
 
 function Skill() {
   const skills = [
@@ -21,12 +20,12 @@ function Skill() {
     <section id="skills" className="skills-section">
       <Container>
         <Row>
-          {/* Left side title */}
-          <Col md={4} sm={12} className="mb-4">
-            <h1 className="section-title">SKILLS</h1>
+          <Col md={4} sm={12} className="mb-4 sticky-col">
+            <div className="sticky-wrapper">
+              <h1 className="section-title">SKILLS</h1>
+            </div>
           </Col>
 
-          {/* Right side cards */}
           <Col md={8} sm={12}>
             <div className="skills-list">
               {skills.map((skill, index) => (
