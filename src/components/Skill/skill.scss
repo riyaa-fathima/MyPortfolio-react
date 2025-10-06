@@ -76,3 +76,36 @@
     color: #fff;
   }
 }
+@media (max-width: 992px) {
+  .skills-section {
+    padding: 60px 0;
+
+    .section-title {
+      position: static;
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .skills-list {
+      align-items: center;
+    }
+
+    .skill-card {
+      margin-left: 0;
+      width: 350px;
+      height: 250px;
+      transform: none;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .skills-section .skill-card {
+    width: 90%;
+  }
+
+  .skills-section .section-title {
+    font-size: 2rem;
+  }
+}

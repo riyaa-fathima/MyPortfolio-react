@@ -10,7 +10,7 @@
     letter-spacing: -2.99px;
     margin-bottom: 50px;
     color: #eb6563;
-    text-transform: uppercase;
+    margin-top: 200px;
   }
 
   .project-card {
@@ -36,3 +36,49 @@
     }
   }
 }
+@media (max-width: 992px) {
+  .projects-section {
+    padding: 70px 0;
+
+    .section-title {
+      font-size: 2.3rem;
+      margin-top: 100px;
+      text-align: center;
+    }
+
+    .project-card {
+      img {
+        height: 250px;
+        width: 100%;
+      }
+
+      .card-title {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .projects-section {
+    padding: 60px 0;
+
+    .section-title {
+      font-size: 2rem;
+      margin-top: 80px;
+      margin-bottom: 30px;
+    }
+
+    .project-card {
+      img {
+        height: 200px;
+      }
+
+      .card-title {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
