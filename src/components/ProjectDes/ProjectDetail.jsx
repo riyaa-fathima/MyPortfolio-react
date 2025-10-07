@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import "./ProjectDetail.scss";
+import "./projectDetail.scss";
 import { FaGithub } from "react-icons/fa";
 import eCommerce from "../../assets/eCommerce.png";
 import portfolio from "../../assets/portfolio.png";
