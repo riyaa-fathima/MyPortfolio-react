@@ -30,7 +30,6 @@ function Skill() {
             <div className="skills-list">
               {skills.map((skill, index) => (
                 <div className={`skill-card color-${index % 4}`} key={index}>
-                  <div className="icon">{skill.icon}</div>
                   <div>
                     <h3>{skill.title}</h3>
                     <p>{skill.desc}</p>
@@ -41,8 +40,11 @@ function Skill() {
           </Col>
         </Row>
       </Container>
+
+      
     </section>
   );
 }
 
 export default Skill;
+
