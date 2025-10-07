@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import "./navBar.scss";
+import "./navbar.scss";
 
 function NavBar() {
   const [expanded, setExpanded] = useState(false);
