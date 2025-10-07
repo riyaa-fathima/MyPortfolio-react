@@ -37,7 +37,6 @@ function Hero() {
       <div className="about-sec">
         <About />
         <Skill />
-        {/* <NewSkill /> */}
       </div>
       <ContactMe />
     </section>
