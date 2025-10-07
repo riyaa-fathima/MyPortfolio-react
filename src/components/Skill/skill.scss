@@ -4,7 +4,7 @@
   border-bottom-left-radius: 30% 100px;
   border-top-right-radius: 30% 100px;
   position: relative;
-   overflow: visible;
+  overflow: visible;
   transform: none;
 
   .sticky-col {
@@ -22,7 +22,6 @@
         font-weight: 950;
         font-family: "Anton", sans-serif;
         color: #eb6563;
-       
       }
     }
   }
@@ -39,7 +38,7 @@
       border-radius: 12px;
       box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.05);
       transition: all 0.3s ease;
-      margin-left: 350px;
+      margin-left: 200px;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
@@ -95,17 +94,11 @@
 
     .skills-list {
       align-items: center;
-    }
-
-    .skill-card {
-      margin-left: 0;
-      width: 350px;
-      height: 250px;
-      transform: none;
-
-      &:hover {
-        transform: translateX(10px);
-        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+      .skill-card {
+        margin-left: 0;
+        width: 350px;
+        height: 250px;
+        transform: none;
       }
     }
   }
@@ -113,14 +106,14 @@
 
 @media (max-width: 400px) {
   .skills-section {
-    .skill-card {
-      width: 90%;
+    .skills-list {
+      .skill-card {
+        width: 250px;
+      }
     }
   }
 
-  .skills-section {
-    .section-title {
-      font-size: 2rem;
-    }
+  .section-title {
+    font-size: 2rem;
   }
 }
