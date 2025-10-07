@@ -7,6 +7,7 @@ import About from "../AboutMe/AboutMe";
 import riyaa from "../../assets/riyaa.jpeg";
 import ContactMe from "../ContactMe/ContactMe";
 
+
 function Hero() {
   return (
     <section id="home" className="hero-section">
@@ -36,6 +37,7 @@ function Hero() {
       <div className="about-sec">
         <About />
         <Skill />
+        {/* <NewSkill /> */}
       </div>
       <ContactMe />
     </section>

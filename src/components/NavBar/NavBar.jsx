@@ -21,7 +21,7 @@ function NavBar() {
             <NavLink to="/" onClick={handleClose} className="nav-link">
               Home
             </NavLink>
-            <a href="#about" className="nav-link">
+            <a href="/#about" className="nav-link">
               About
             </a>
             <NavLink to="/project" onClick={handleClose} className="nav-link">
