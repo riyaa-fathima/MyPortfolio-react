@@ -10,7 +10,6 @@
     letter-spacing: -2.99px;
     margin-bottom: 50px;
     color: #eb6563;
-    margin-top: 200px;
   }
 
   .project-card {
@@ -38,7 +37,7 @@
 }
 @media (max-width: 992px) {
   .projects-section {
-    padding: 70px 0;
+    padding: 0!important;
 
     .section-title {
       font-size: 2.3rem;
@@ -62,7 +61,6 @@
 
 @media (max-width: 576px) {
   .projects-section {
-    padding: 60px 0;
 
     .section-title {
       font-size: 2rem;
