@@ -4,7 +4,6 @@
   padding: 200px 0;
   color: #2d2d2d;
   position: relative;
-  // overflow: hidden;
   padding-top: 0;
   .hero-subSec {
     margin-top: 0;
@@ -27,6 +26,7 @@
       object-fit: cover;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
       margin-left: 200px;
+      
     }
 
     h6 {
@@ -96,11 +96,12 @@
 @media (max-width: 576px) {
   .hero-section {
     .hero-subSec {
+      height: 150vh;
 
       .para-text {
         margin-top: 0;
         p {
-          font-size: 0.9rem;
+          font-size:1.1rem;
         }
       }
     }

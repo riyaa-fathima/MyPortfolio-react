@@ -1,12 +1,10 @@
 import "./hero.scss";
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Project from "../Projects/Projects";
 import Skill from "../Skill/Skill";
 import About from "../AboutMe/AboutMe";
-import riyaa from "../../assets/riyaa.jpeg";
 import ContactMe from "../ContactMe/ContactMe";
-
+import riyaa from "../../assets/riyaa.jpeg";
 
 function Hero() {
   return (
@@ -22,7 +20,7 @@ function Hero() {
           <Row className="align-items-center">
             <Col md={6} className="text-center text-md-start">
               <h6>Frontend Developer & Designer</h6>
-              <h1>RIYA FATHIMA </h1>
+              <h1>RIYA FATHIMA</h1>
             </Col>
             <Col className="para-text">
               <p>
