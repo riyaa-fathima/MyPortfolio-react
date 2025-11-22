@@ -15,16 +15,18 @@ function AboutMe() {
           <Col md={7} sm={12}>
             <h2 className="section-title">About Me</h2>
             <p className="about-text">
-              A passionate{" "}
-              <span className="highlight">Frontend Developer & Designer</span>{" "}
-              who loves crafting elegant, responsive, and user-friendly web
-              experiences. With an eye for design and detail, I enjoy blending
-              creativity and technology to bring ideas to life.
+              A dedicated{" "}
+              <span className="highlight">Full Stack MERN Developer</span> who
+              builds scalable, efficient, and user-centric web applications. I
+              enjoy working across the entire development cycle — from designing
+              clean UIs to building powerful backend logic and managing
+              databases.
             </p>
             <p className="about-text">
-              Beyond coding, I find inspiration in colors, visuals, and everyday
-              moments — always learning, exploring, and growing through
-              creativity.
+              I focus on writing clean, maintainable code and solving real-world
+              problems with practical solutions. Every project is a chance to
+              optimize performance, improve user experience, and learn something
+              new.
             </p>
           </Col>
         </Row>

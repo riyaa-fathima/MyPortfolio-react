@@ -19,13 +19,15 @@ function Hero() {
 
           <Row className="align-items-center">
             <Col md={6} className="text-center text-md-start">
-              <h6>Frontend Developer & Designer</h6>
+              <h6>Full Stack MERN Developer</h6>
               <h1>RIYA FATHIMA</h1>
             </Col>
             <Col className="para-text">
               <p>
-                I create beautiful, responsive, and user-friendly websites using
-                modern technologies like React, JavaScript, and Bootstrap.
+                I build complete web applications — from designing clean UIs to
+                developing robust backend APIs with Node.js, Express, and
+                MongoDB. My focus is on performance, scalability, and real-world
+                problem solving using modern web technologies.
               </p>
             </Col>
           </Row>
