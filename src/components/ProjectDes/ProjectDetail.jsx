@@ -4,7 +4,7 @@ import "./projectDetail.scss";
 import { FaGithub } from "react-icons/fa";
 import eCommerce from "../../assets/eCommerce.png";
 import portfolio from "../../assets/portfolio.png";
-import todo from "../../assets/todo.png";
+import ecommerceImg from "../../assets/ecommerceImg.jpeg"
 import crypto from "../../assets/crypto.png";
 import { Col, Row } from "react-bootstrap";
 
@@ -39,18 +39,20 @@ const ProjectDetail = () => {
       github: "https://github.com/riyaa-fathima/reactPortfolio",
       image: portfolio,
     },
-    todo: {
-      title: "To-Do List App",
-      description:
-        "A simple task tracker that allows adding, editing, and deleting tasks, built using React hooks and local storage.",
-      overview:
-        "A task management app that helps users add, edit, and track their daily goals.",
-      research:
-        "Created to practice React useState and local storage features for saving tasks.",
-      design: "Built using React hooks with a simple and clean UI.",
-      github: "https://github.com/riyaa-fathima/TodoList-sass",
-      image: todo,
-    },
+    fEcommerce: {
+  title: "Full Stack MERN E-Commerce Platform",
+  description:
+    "A production-ready e-commerce web application with JWT authentication, protected routes, admin dashboard, cart system, and order management.",
+  overview:
+    "Users can register, log in, browse products, and manage their cart and orders. Admins can perform full CRUD operations on products and users through a secure dashboard.",
+  research:
+    "Focused on handling real-world MERN stack challenges such as data modeling, authentication, session handling, and API security. Implemented REST APIs with Express and integrated MongoDB for structured data management.",
+  design:
+    "Frontend built with React and Bootstrap/Tailwind. Backend handled using Node.js, Express, and MongoDB with JWT-based authentication and middleware validation for protected routes.",
+  github: "https://github.com/riyaa-fathima/YOUR_REPO",
+  image: ecommerceImg,
+},
+
     crypto: {
       title: "Crypto Price Tracker",
       description:

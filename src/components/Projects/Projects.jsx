@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import eCommerce from "../../assets/eCommerce.png";
 import portfolio from "../../assets/portfolio.png";
-import todo from "../../assets/todo.png";
+import ecommerceImg from "../../assets/ecommerceImg.jpeg"
 import crypto from "../../assets/crypto.png";
 import { useNavigate } from "react-router-dom";
 
@@ -21,9 +21,9 @@ function Projects() {
       img: portfolio,
     },
     {
-      id: "todo",
-      title: "To-do list ",
-      img: todo,
+      id: "fEcommerce",
+      title: "Full-Stack e-comemerce website ",
+      img: ecommerceImg,
     },
     {
       id: "crypto",
